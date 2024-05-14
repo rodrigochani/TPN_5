@@ -7,8 +7,8 @@
 echo "Ingrese el número hasta el cual contarán los contadores:"
 read limite
 
-# Definir el path del ejecutable de Python
-python_path="/c/Users/rodri/AppData/Local/Programs/Python/Python312/python.exe"
+# Path del ejecutable de Python (en "X", va el nombre de usuario)
+python_path="/c/Users/X/AppData/Local/Programs/Python/Python312/python.exe"
 
 # Ejecutar cada script de Python en background y capturar sus PIDs
 echo "##### Los contadores se ejecutrán de manera secuencial #####"
