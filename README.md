@@ -21,5 +21,4 @@ Cada script está nombrado según el número del ejercicio. Aquí está una brev
 
 Para ejecutar cualquiera de los scripts Python, navega al directorio del script y ejecuta:
 
-bash <script_name>.sh
-python <script_name>.py
+bash <script_name>.sh o python <script_name>.py, según corresponda.
