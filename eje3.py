@@ -4,9 +4,9 @@
 # ################################ Ejercicio 3: Haga un programa en python donde tome dos valores de entrada: sueldo y rango. Con ello, calcule la asignación que percibirá el empleado, considerando la tabla dada. ################################
 
 # Pedir al usuario que ingrese el sueldo
-sueldo = float(input("Por favor, introduce el sueldo del empleado: "))
+sueldo = input("Por favor, introduce el sueldo del empleado: ")
 
-# Verificar que el sueldo no sea cero antes de proceder
+# Verificar que el sueldo no sea cero ni negativo antes de proceder
 if sueldo <= 0:
     print("El sueldo no puede ser 0 o negativo. Vuelva a intentarlo.")
     exit(1)
